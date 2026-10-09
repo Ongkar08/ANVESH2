@@ -58,14 +58,12 @@ ANVESH provides a **Zero-Fabrication** evidence analysis pipeline combining cryp
 ```
                                   ANVESH PLATFORM
                                          │
-         ┌───────────────────────────────┴───────────────────────────────┐
-         ▼                                                               ▼
-   Web SOC Workstation                                          Mobile Companion App
-(React 18 + Vite + Tailwind)                                    (React Native + Expo)
-   Density Tier: 8 / 10                                         Real-time Alert Triage
-Deep Investigation & Campaign Graph                             On-call Incident Review
-         │                                                               │
-         └───────────────────────────────┬───────────────────────────────┘
+                                         ▼
+                                Web SOC Workstation
+                            (React 18 + Vite + Tailwind)
+                                Density Tier: 8 / 10
+                         Deep Investigation & Campaign Graph
+                                         │
                                          │ RESTful HTTPS / JSON
                                          ▼
                              FastAPI Core Engine Monolith
@@ -195,16 +193,6 @@ SIH2026/
 │   ├── package.json
 │   └── vite.config.ts
 │
-├── mobile/                         # Mobile Companion Application (Android / iOS)
-│   ├── src/
-│   │   ├── components/             # Native cards, risk indicators, connectivity pill
-│   │   ├── screens/                # Home, Cases, Alerts, Detail, Quick Lookup
-│   │   ├── navigation/             # Native stack & bottom tab navigators
-│   │   └── constants/              # Centralized API base URL & theme tokens
-│   ├── app.json                    # Expo project configuration
-│   ├── eas.json                    # EAS cloud build profiles
-│   └── App.tsx                     # Mobile entry point with ErrorBoundary
-│
 ├── ml/                             # Machine Learning Subsystem
 │   ├── datasets/                   # Curated, source-aware training & evaluation sets
 │   ├── inference/                  # Frozen model predictors (Phishing, BEC, Lookalike)
@@ -293,16 +281,6 @@ npm run dev
 
 ---
 
-### Step 5: Run the Mobile Companion App
-In a new terminal:
-```bash
-cd mobile
-npm install
-npx expo start
-```
-* Scan the QR code with **Expo Go** on Android/iOS, or install the compiled standalone APK.
-
----
 
 ## 📡 API Reference
 

@@ -1,6 +1,6 @@
 # PROJECT_NAME Design System — Screen Map & Information Architecture
 
-> **Navigation & Information Flow Across Web Workstation & Mobile Companion**
+> **Navigation & Information Flow Across Web Workstation**
 
 ---
 
@@ -34,32 +34,4 @@
     ├── [AI Copilot] ─────────── Interactive evidence question-and-answering
     │
     └── [Settings] ───────────── API credentials, SOC thresholds, theme settings
-```
-
----
-
-## 2. Mobile Companion Screen Map
-
-```
-[Bottom Navigation]
-    │
-    ├── [Alerts]
-    │       ├── Critical Alert Banner
-    │       ├── Real-time threat cards (Risk Score + BEC/Phishing pill)
-    │       └── Quick Tap ──► Open Case Modal
-    │
-    ├── [Cases]
-    │       ├── Active cases assigned to analyst
-    │       ├── Filter: All / High Risk / Pending Review
-    │       └── Case Summary Card ──► [Acknowledge / Escalate / Add Note]
-    │
-    ├── [Quick Lookup]
-    │       ├── Search Input (IP / Domain / URL)
-    │       └── Instant Enrichment Summary (ISP, Country, Reputation)
-    │
-    └── [More]
-            ├── Backend Connectivity Ping (http://localhost:8000)
-            ├── Push Notification Preferences (FCM Ready)
-            ├── SOC Analyst Profile
-            └── Documentation & SIH Problem Statement Details
 ```
