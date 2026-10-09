@@ -13,7 +13,6 @@
   <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=flat&logo=python&logoColor=white" alt="Python 3.12" />
   <img src="https://img.shields.io/badge/FastAPI-0.115-009688?style=flat&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react&logoColor=black" alt="React 18" />
-  <img src="https://img.shields.io/badge/React_Native-Expo_51-000020?style=flat&logo=expo&logoColor=white" alt="Expo" />
   <img src="https://img.shields.io/badge/TypeScript-5.5-3178C6?style=flat&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Supabase-PostgreSQL-3ECF8E?style=flat&logo=supabase&logoColor=white" alt="Supabase" />
   <img src="https://img.shields.io/badge/Status-Production_Ready-30D158?style=flat" alt="Production Ready" />
@@ -227,7 +226,6 @@ SIH2026/
 | **Backend** | Python 3.12, FastAPI, Pydantic v2, Uvicorn | High-performance asynchronous API, strict schema validation |
 | **Machine Learning** | Scikit-learn, NumPy, Joblib | Deterministic inference speed (< 15ms), frozen reproducible models |
 | **Web Workstation** | React 18, Vite, TypeScript, Tailwind CSS, Lucide | Swiss minimalist dark SOC theme, zero bloat, instant HMR |
-| **Mobile App** | React Native, Expo 51, React Navigation, Hermes | Standalone Android APK support, fast on-call alert triage |
 | **Database & Auth** | Supabase (PostgreSQL 15), Row-Level Security | Real-time event synchronization, relational integrity |
 | **Reporting Engine** | ReportLab PDF Library | High-resolution, tamper-evident forensic export documents |
 

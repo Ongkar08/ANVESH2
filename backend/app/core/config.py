@@ -44,21 +44,17 @@ class Settings(BaseSettings):
     )
     SQLITE_FALLBACK_URL: str = "sqlite:///./anvesh_dev.db"
     
-    # CORS Origins (Configured allowed origins only; no wildcard allowed when credentials=True)
+    # CORS Origins for Web Workstation
     CORS_ORIGINS: List[str] = [
         "http://localhost:5173",
         "http://127.0.0.1:5173",
-        "http://localhost:3000",
-        "http://localhost:8081",
-        "http://localhost:19000",
-        "http://localhost:19006"
+        "http://localhost:3000"
     ]
     
     # External Enrichment & Services
     VIRUSTOTAL_API_KEY: str = Field(default="", env="VIRUSTOTAL_API_KEY")
     ABUSEIPDB_API_KEY: str = Field(default="", env="ABUSEIPDB_API_KEY")
     SAFE_BROWSING_API_KEY: str = Field(default="", env="SAFE_BROWSING_API_KEY")
-    FCM_SERVER_KEY: str = Field(default="", env="FCM_SERVER_KEY")
 
 
 settings = Settings()

@@ -56,7 +56,7 @@ export const AlertsPage: React.FC = () => {
           REAL-TIME ALERT TRIAGE
         </h2>
         <p className="text-xs text-[#8996A6] mt-1">
-          Active alerts requiring investigator triage. Shared directly with mobile on-call companion.
+          Active alerts requiring investigator triage and response.
         </p>
       </div>
 

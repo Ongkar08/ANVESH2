@@ -1,5 +1,5 @@
 """
-Alert ORM model representing threat notifications for Web & Mobile triage.
+Alert ORM model representing threat notifications for SOC triage.
 """
 from datetime import datetime
 from sqlalchemy import Column, Integer, String, Text, Boolean, DateTime, ForeignKey

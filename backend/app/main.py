@@ -62,7 +62,7 @@ class SecurityHeadersMiddleware(BaseHTTPMiddleware):
 
 app.add_middleware(SecurityHeadersMiddleware)
 
-# CORS Middleware for Web (Vite) and Mobile (Expo)
+# CORS Middleware for Web Workstation (Vite)
 app.add_middleware(
     CORSMiddleware,
     allow_origins=settings.CORS_ORIGINS,
